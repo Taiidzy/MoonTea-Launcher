@@ -28,9 +28,9 @@ def create_shortcut(target_file, shortcut_name, shortcut_folder, working_directo
 
 def start_installation(destination_folder, create_desktop, create_start_menu, progress_callback):
     file_urls = [
-        "http://178.173.82.2:1000/launcher/download/exe",
-        "http://178.173.82.2:1000/launcher/download/ico",
-        "http://178.173.82.2:1000/launcher/download/bg"
+        "http://178.173.82.2:1010/api/launcher/download/exe",
+        "http://178.173.82.2:1010/api/launcher/download/ico",
+        "http://178.173.82.2:1010/api/launcher/download/bg"
     ]
 
     moontea_folder = os.path.join(destination_folder, "MoonTea")

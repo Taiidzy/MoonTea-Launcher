@@ -1,0 +1,12 @@
+{
+    "ram": 8704,
+    "dev_mode": false,
+    "theme": "light",
+    "close_launcher": true,
+    "nickname": "Taiidzy",
+    "selected_build": "Cave Horror Project",
+    "builds": [
+        "Live",
+        "Cave Horror Project"
+    ]
+}
